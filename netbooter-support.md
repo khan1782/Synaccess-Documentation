@@ -46,7 +46,6 @@ To use Telnet, follow the procedure below.
     - For Ubuntu Linux (14.04+) users, Telnet should be included with your OS.
 3. With a new terminal window (from PuTTY or Linux CLI). Use the IP address of your device as an argument to run Telnet. The default PORT for Telnet is 23. If you have previously changed the telnet port, add an additional argument of port to the IP address. The syntax for the additional argument will depend on which Telnet application you are using. 
 4. If you see a blank cursor and the following Welcome Message, then the connection is fine.
-<!-- TODO screenshot -->
 5. Once you are inside the telnet session. You can type `?` to see all available options
 6. To exit, type `logout` and you will exit your current telnet session. 
 
@@ -57,7 +56,6 @@ To use Telnet, follow the procedure below.
 To access your device from a web page, you must first [identify the IP address](#Configuring-Device-IP-Address).
 
 With your device's IP address, go to the web browser and type it into the address bar. If you have specified a different port than the default 80 then append a ":your_port" to the IP address in the address bar.
-<!-- TODO screenshot -->
 
 
 You will  be prompted for authorization credentials. The default username and password are admin and admin. Once you have logged in, you will have access all the web interface related features.
@@ -69,7 +67,6 @@ You will  be prompted for authorization credentials. The default username and pa
 
 There is a programmable HTTP API you can utilize for any scripting needs. You can access them through any programming language that can receive and issue HTTP requests. Visit our [GitHub](https://github.com/synaccess-networks) for code examples. Additionally, you can utilize telnet inside scripts to create programmable functions for the device.
 
-<!-- ![api_screenshot](https://api.synaccess-net.com/api_screenshot.png) -->
 
 	
 
