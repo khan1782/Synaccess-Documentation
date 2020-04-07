@@ -1,9 +1,7 @@
+
 # NetBooter/NetCommander Support
 
-###### tags: `documentation` `faq`
-
 [toc]
-
 
 ## Troubleshooting
 Below are a few guides and walkthroughs to help you get connected with your devices.
@@ -152,3 +150,5 @@ Depending on the model, the longest allowable domain name is no longer then 15 c
  under documents
  http://ww1.microchip.com/downloads/en/DeviceDoc/MCP2221%20Windows%20Driver%202014-10-09.zip
  
+ 
+ ###### tags: `documentation` `faq`
