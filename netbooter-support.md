@@ -117,30 +117,7 @@ If you can't access the webserver of your PDU but it's connected to the network 
 Try using the command `nwset` inside a telnet session to restore inactive networking applications. 
 
 Using nwset will not reset your outlets.
-	
-<!-- 
-### What is the wattage consumption for a unit?
 
-CPU current draw:
-
-`250mA @ 5V -> 1.25W (approximate)`.
-
-Each relay:
-
-`0.035mA @ 12V -> 0.42W`
-
-For NP-0801DU:
-
-`1.25W x 8 x 0.42 = 4.61W`
-
-NP-16
-
-`~10W`
-
-NP-02
-
-`~3W`
- -->
 	
 
 ### How do I boot the PDU in DHCP default mode?
@@ -167,19 +144,7 @@ No it will not, your device will maintain their power state through a reset.
 ### Why am I getting a 414 error when accessing the PDU webpage from a domain name?
 Depending on the model, the longest allowable domain name is no longer then 15 characters. Be sure to clear all cookies and cache. If a previous left cookie exceeds a certain length, a 414 error can happen. To fix this, clear all cookies and cache on your browser/http client.
 	
-<!-- 
-### How do I turn multiple outlets on/off at the same time
 
-
-Under ** Outlet Setup ** on the device web page, Look for a section for Outlet Grouping. The following screen is an example of an NP-0801DUE Outlet Grouping Set up.
-
-![outlet_grouping](https://api.synaccess-net.com/outlet_grouping_screenshot1.png)
-
-Once you have set up which outlets will go with which group you can toggle them in the ** Operation Status** page of the device's web page.
-
-![outlet_grouping](https://api.synaccess-net.com/outlet_grouping_screenshot2.png)
-
- -->
  
  ### My Windows PC is not recognizing my USB-Serial Connection
  Most versions of Windows (7,8,109)
