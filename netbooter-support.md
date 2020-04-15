@@ -31,8 +31,32 @@ To access the PDU in it's default mode, make sure static IP's are allowed in you
 If you would like your router to specify the IP address, you can [restart the device in DHCP mode](#How-do-I-boot-the-PDU-in-DHCP-default-mode).
 
 Once the device boots in DHCP, you can check your router for connected clients, and identify the IP address assigned. The default name for the device is REMOTEPDU.
-	
-	
+
+### Accessing your device with a Direct Connect via Ethernet Cable
+
+If you are attempting to configure your device and it is set to a static IP address that is outside your local network's subnet, or you wish to establish a direct peer to peer connection, you can access the PDU by doing a direct connect with your Host PC (typically windows/mac/linux).
+
+Modern computers (typically made after year 2000) will most likely not need a cross-over ethernet cable. **You can most likely use a straight through ethernet cable in this case.**
+
+These steps assume the IP address of the Synaccess Device is the default static **`192.168.1.100`**
+1. Connect your ethernet cable to the Ethernet Port of your Synaccess Device.
+2. Connect the other end of your ethernet cable to your Host PC (Windows/Mac/Linux)
+3. Modify these network settings in your Host PC (Windows/Mac/Linux). See below for further instructions.
+  
+    * IPv4 Address: **`192.168.1.101`** *Note: last octet is 101 not 100*
+    * Subnet Mask: **`255.255.255.0`**
+    
+4. Once these network settings are set, open a web browser (preferrable Chrome or Firefox).
+5. Go to 192.168.1.100, and you should see the web interface.
+
+
+
+**Instructions to change network settings on your Computer**
+* [Instructions to change IPv4 and other network settings for WINDOWS](https://support.microsoft.com/en-us/help/15089/windows-change-tcp-ip-settings)
+* [Instructions to change Network Settings for UBUNTU LINUX](https://help.ubuntu.com/lts/serverguide/network-configuration.html)
+* *Official Apple support website does not have instructions for changing Local IP. Google search term: How to set static local IP Mac OS*
+
+
 
 ### Using Telnet to access your device
 
